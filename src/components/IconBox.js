@@ -13,7 +13,7 @@ const IconBoxes = () => {
           >
             <div className="icon-box">
               <div className="icon"><i className={box.icon}></i></div>
-              <h4 className="title"><a href="#">{box.title}</a></h4>
+              <h4 className="title"><a href="#/">{box.title}</a></h4>
               <p className="description">{box.description}</p>
             </div>
           </div>

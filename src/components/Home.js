@@ -7,7 +7,7 @@ import About from './About';
 import Contact from './Contact';
 import Counts from './Counts';
 import AOS from 'aos';
-import GLightbox from 'glightbox';
+// import GLightbox from 'glightbox';
 import Swiper from 'swiper';
 import "./assets/css/style.css";
 import Isotope from 'isotope-layout';
@@ -35,7 +35,7 @@ const technologies = [
 const Home = () => {
    useEffect(() => {
     (function () {
-      "use strict";
+      // "use strict";
       
       /**
        * Easy selector helper function
@@ -210,9 +210,9 @@ const Home = () => {
        /**
    * Initiate glightbox
    */
- const glightbox = GLightbox({
-      selector: '.glightbox',
-    });
+//  const glightbox = GLightbox({
+//       // selector: '.glightbox',
+//     });
 
     // Swiper initialization
     new Swiper(".testimonials-slider", {
@@ -279,9 +279,9 @@ const Home = () => {
       /**
        * Initiate portfolio lightbox
        */
-      const portfolioLightbox = GLightbox({
-        selector: ".portfolio-lightbox",
-      });
+      // const portfolioLightbox = GLightbox({
+      //   selector: ".portfolio-lightbox",
+      // });
 
       /**
        * Portfolio details slider

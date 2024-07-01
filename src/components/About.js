@@ -24,7 +24,7 @@ const About = () => {
             <p>
               Hirademy is a learning and product-building company, and we onboard Engineers to build innovative products. We hire students/freshers and make them strong engineers via our Mentorship and Internship Programs.
             </p>
-            <a href="#" className="btn-learn-more">Learn More</a>
+            <a href="#/" className="btn-learn-more">Learn More</a>
           </div>
         </div>
       </div>
